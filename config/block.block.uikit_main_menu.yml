@@ -1,0 +1,27 @@
+uuid: 7c3cc41e-52c8-4d02-953c-9f6c68105179
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - uikit
+_core:
+  default_config_hash: ZGKOpCR_TCFma4nBVVKgoOw3icDlzKtldXwy0kiorJQ
+id: uikit_main_menu
+theme: uikit
+region: navbar
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,28 @@
+uuid: 91b963c8-0ac8-403e-bccf-d505f0018e8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hdywdt_moment_teaser_media
+    - media.type.remote_video
+    - node.type.hdywdt_moment
+id: node.hdywdt_moment.field_hdywdt_moment_teaser_media
+field_name: field_hdywdt_moment_teaser_media
+entity_type: node
+bundle: hdywdt_moment
+label: Teaser
+description: 'The teaser media used in the listing.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,95 @@
+{
+    "uuid": [
+        {
+            "value": "3c9d38aa-f471-4105-988b-5c8f2674f81b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hdywdt_moment",
+            "target_type": "node_type",
+            "target_uuid": "551bec16-c1ea-4b23-9272-05ee991e4f33"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-07-24T03:48:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "79f7e84d-79cd-4480-9384-20c987ef678d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "79f7e84d-79cd-4480-9384-20c987ef678d"
+        }
+    ],
+    "title": [
+        {
+            "value": "Campaign 1: Episode 1"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-24T03:46:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-24T03:48:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "field_hdywdt_moment_content": [],
+    "field_hdywdt_moment_teaser_media": [
+        {
+            "target_type": "media",
+            "target_uuid": "dda8cf85-9d65-432d-8f31-07330f38897f"
+        }
+    ],
+    "field_tags": []
+}

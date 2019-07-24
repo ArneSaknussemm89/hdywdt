@@ -1,0 +1,22 @@
+uuid: cc33bcb0-598a-43c2-a277-84ab9b860c2f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hdywdt_moment
+id: node.hdywdt_moment.promote
+field_name: promote
+entity_type: node
+bundle: hdywdt_moment
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,8 @@
+uuid: beac93b4-80cd-4808-b21c-ee1f0466deb1
+langcode: en
+status: true
+dependencies: {  }
+name: Actors
+vid: actors
+description: 'The different actors on the Critical Role show.'
+weight: 0

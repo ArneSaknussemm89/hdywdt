@@ -1,0 +1,8 @@
+uuid: 11086de7-353e-42ca-8bae-08438b577e0d
+langcode: en
+status: true
+dependencies: {  }
+name: Campaigns
+vid: campaigns
+description: 'Categorization of moments into the separate campaigns.'
+weight: 0

@@ -1,0 +1,24 @@
+uuid: 4e3bcf7d-c8f9-4c73-8489-f7292c3a6df3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.hdywdt_moment.field_hdywdt_moment_teaser_media
+    - field.field.node.hdywdt_moment.field_tags
+    - node.type.hdywdt_moment
+  module:
+    - user
+id: node.hdywdt_moment.teaser
+targetEntityType: node
+bundle: hdywdt_moment
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_hdywdt_moment_teaser_media: true
+  field_tags: true

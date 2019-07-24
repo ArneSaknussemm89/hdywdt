@@ -1,0 +1,87 @@
+{
+    "uuid": [
+        {
+            "value": "dda8cf85-9d65-432d-8f31-07330f38897f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "remote_video",
+            "target_type": "media_type",
+            "target_uuid": "0257adc6-d8e8-4691-9132-ce6c6cbaff16"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-24T03:47:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "79f7e84d-79cd-4480-9384-20c987ef678d"
+        }
+    ],
+    "name": [
+        {
+            "value": "Arrival at Kraghammer  - Critical Role RPG Show: Episode 1"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "",
+            "title": null,
+            "width": 480,
+            "height": 360,
+            "target_type": "file",
+            "target_uuid": "a7ef01fc-ab39-419b-ae05-0d064016c566"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-24T03:47:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-24T03:47:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/www.youtube.com\/watch?v=i-p9lWIhcLQ"
+        }
+    ]
+}

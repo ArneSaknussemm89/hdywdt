@@ -1,0 +1,21 @@
+uuid: 434a9e74-5897-4a4f-bebd-76a9cddde4cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hdywdt_moment_content
+    - node.type.hdywdt_moment
+  module:
+    - text
+id: node.hdywdt_moment.field_hdywdt_moment_content
+field_name: field_hdywdt_moment_content
+entity_type: node
+bundle: hdywdt_moment
+label: Content
+description: 'A short description describing the HDYWDT moment.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
