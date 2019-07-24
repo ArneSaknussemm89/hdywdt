@@ -297,7 +297,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'gIxwouhGAxbQebnHhdCFob6_8OtZpwp-u5L91whf85Z13405TlsL-gn7cL23Nnp9SkelY15-PQ';
 
 /**
  * Deployment identifier.
@@ -792,3 +792,9 @@ $databases['default']['default'] = array (
   'driver' => 'sqlite',
 );
 $config_directories['sync'] = '../config';
+$databases['default']['default'] = array (
+  'database' => 'sites/default/files/.ht.sqlite',
+  'prefix' => '',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\sqlite',
+  'driver' => 'sqlite',
+);
