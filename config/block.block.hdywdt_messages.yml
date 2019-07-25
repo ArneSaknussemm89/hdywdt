@@ -1,0 +1,22 @@
+uuid: e575ff60-1eef-4da9-ad34-cdccb28feb9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hdywdt
+_core:
+  default_config_hash: N0MS7xVxe_e7Pr8KQyko0pAVY_10R-Xvy3y1Ev4raFM
+id: hdywdt_messages
+theme: hdywdt
+region: content
+weight: -2
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -745,6 +745,12 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
+$settings['trusted_host_patterns'] = [
+  '*\.codekoalas\.com',
+  '*\.codekoa\.la',
+  '*\.howdoyouwannadothis\.com',
+  '^howdoyouwannadothis-com.docksal',
+];
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
@@ -792,9 +798,3 @@ $databases['default']['default'] = array (
   'driver' => 'sqlite',
 );
 $config_directories['sync'] = '../config';
-$databases['default']['default'] = array (
-  'database' => 'sites/default/files/.ht.sqlite',
-  'prefix' => '',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\sqlite',
-  'driver' => 'sqlite',
-);

@@ -1,0 +1,185 @@
+@import '../utils/init';
+
+@each $key, $breakpoint in $breakpoints {
+  $beginning: '';
+  @if $key != default {
+    $beginning: #{$key}-; // sass-lint:disable-line space-around-operator
+  }
+
+  @media (min-width: $breakpoint) {
+    .#{$beginning}padding {
+      padding: 1rem;
+    }
+
+    .#{$beginning}heavy-padding {
+      padding: 2rem;
+    }
+
+    .#{$beginning}extreme-padding {
+      padding: 4rem;
+    }
+
+    .#{$beginning}vertical-padding {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+      &-heavy {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+
+      &-extreme {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+    }
+
+    .#{$beginning}horizontal-padding {
+      padding-left: 1rem;
+      padding-right: 1rem;
+
+      &-heavy {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+
+      &-extreme {
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+    }
+
+    .#{$beginning}top-padding {
+      padding-top: 1rem;
+
+      &-heavy {
+        padding-top: 2rem;
+      }
+
+      &-extreme {
+        padding-top: 4rem;
+      }
+    }
+
+    .#{$beginning}right-padding {
+      padding-right: 1rem;
+
+      &-heavy {
+        padding-right: 2rem;
+      }
+
+      &-extreme {
+        padding-right: 4rem;
+      }
+    }
+
+    .#{$beginning}bottom-padding {
+      padding-bottom: 1rem;
+
+      &-heavy {
+        padding-bottom: 2rem;
+      }
+
+      &-extreme {
+        padding-bottom: 4rem;
+      }
+    }
+
+    .#{$beginning}left-padding {
+      padding-left: 1rem;
+
+      &-heavy {
+        padding-left: 2rem;
+      }
+
+      &-extreme {
+        padding-left: 4rem;
+      }
+    }
+
+    .#{$beginning}margin {
+      margin: 1rem;
+    }
+
+    .#{$beginning}heavy-margin {
+      margin: 2rem;
+    }
+
+    .#{$beginning}top-margin {
+      margin-top: 1rem;
+
+      &-heavy {
+        margin-top: 2rem;
+      }
+    }
+
+    .#{$beginning}right-margin {
+      margin-right: 1rem;
+
+      &-heavy {
+        margin-right: 2rem;
+      }
+    }
+
+    .#{$beginning}bottom-margin {
+      margin-bottom: 1rem;
+
+      &-heavy {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .#{$beginning}left-margin {
+      margin-left: 1rem;
+
+      &-heavy {
+        margin-left: 2rem;
+      }
+    }
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+%bust-out {
+  margin: {
+    left: calc(50% - 50vw);
+    right: calc(50% - 50vw);
+  }
+
+  transform: translateX(calc(50vw - 50%));
+}
+
+.lg-desktop-only {
+  @include breakpoint($jumbo-down) {
+    display: none !important; // sass-lint:disable-line no-important
+  }
+}
+
+.desktop-only {
+  @include breakpoint($lg-down) {
+    display: none !important; // sass-lint:disable-line no-important
+  }
+
+  @include breakpoint($jumbo) {
+    display: none !important; // sass-lint:disable-line no-important
+  }
+}
+
+.tablet-only {
+  @include breakpoint($sm-only) {
+    display: none !important; // sass-lint:disable-line no-important
+  }
+
+  @include breakpoint($lg) {
+    display: none !important; // sass-lint:disable-line no-important
+  }
+}
+
+.mobile-only {
+  @include breakpoint($md) {
+    display: none !important; // sass-lint:disable-line no-important
+  }
+}

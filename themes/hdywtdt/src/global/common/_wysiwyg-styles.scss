@@ -1,0 +1,94 @@
+// sass-lint:disable class-name-format nesting-depth
+/**
+ * Since we are overriding some CKEditor styles, they like to user
+ * underscored class name which is against our linter but we don't
+ * necessarily want to override every CKEditor template/plugin to
+ * swap out the class names so we are ignoring that rule for this file.
+ *
+ * Please try to keep your own custom CSS following our guidelines.
+ */
+
+.cke_toolgroup {
+  margin-bottom: 0;
+
+  a {
+    &.cke_button {
+      &:last-child {
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+}
+
+.cke_combo {
+  &::after {
+    content: none;
+  }
+}
+
+.cke_toolbar {
+  border: 1px solid $color-titanium;
+  margin: 4px;
+}
+
+/**
+ * CKEditor Admin styles
+ */
+body {
+  &.cke_editable {
+    background-color: $color-gallery;
+  }
+}
+
+/**
+ * Elements
+ * - set css for block indent.
+ ========================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &.Indent1 {
+    margin-left: 1rem;
+  }
+
+  &.Indent2 {
+    margin-left: 2rem;
+  }
+
+  &.Indent3 {
+    margin-left: 3rem;
+  }
+
+  &.Indent4 {
+    margin-left: 4rem;
+  }
+
+  &.Indent5 {
+    margin-left: 5rem;
+  }
+
+  &.Indent6 {
+    margin-left: 6rem;
+  }
+
+  &.Indent7 {
+    margin-left: 7rem;
+  }
+
+  &.Indent8 {
+    margin-left: 8rem;
+  }
+
+  &.Indent9 {
+    margin-left: 9rem;
+  }
+
+  &.Indent10 {
+    margin-left: 10rem;
+  }
+}

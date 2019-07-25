@@ -1,0 +1,131 @@
+@import '../utils/init';
+
+.layout__container {
+  width: 100%;
+}
+
+.layout {
+  &:not(.has-mobile-background) {
+    .layout__region--background {
+      & ~ .layout-content-overlay {
+        position: relative;
+      }
+    }
+
+    @include breakpoint($lg) {
+      .layout__region--background {
+        & ~ .layout-content-overlay {
+          position: absolute;
+        }
+      }
+    }
+  }
+
+  &.overlay-bottom-light {
+    .layout-content-overlay {
+      z-index: 4;
+    }
+  }
+
+  .layout__region--border-bottom {
+    position: relative;
+    height: 40px;
+    background-image: url('../assets/layout-bottom-border.png');
+    background-size: 100% 100%;
+    z-index: 2;
+
+    @include breakpoint($md) {
+      height: 75px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateY(50%);
+    }
+  }
+
+  .layout__region--grid-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 110px;
+    background-image: url('../assets/header-dots.png');
+    background-size: 1300px 75px;
+    background-repeat: repeat-x;
+    transform: translateY(73%);
+    z-index: 2;
+
+    @include breakpoint($lg) {
+      background-size: 100%;
+      transform: translateY(62%);
+    }
+  }
+
+  .layout__region--background {
+    img {
+      display: block;
+      height: 100%;
+    }
+  }
+
+  .layout__region--title {
+    z-index: 3;
+  }
+
+  .layout-content-overlay {
+    z-index: 3;
+  }
+}
+
+.margin-top-light {
+  margin-top: 40px;
+
+  @include breakpoint($md) {
+    margin-top: 80px;
+  }
+
+  @include breakpoint($lg) {
+    margin-top: 120px;
+  }
+}
+
+.margin-top-heavy {
+  margin-top: 80px;
+
+  @include breakpoint($md) {
+    margin-top: 160px;
+  }
+
+  @include breakpoint($lg) {
+    margin-top: 240px;
+  }
+}
+
+.margin-bottom-light {
+  margin-bottom: 40px;
+
+  @include breakpoint($md) {
+    margin-bottom: 80px;
+  }
+
+  @include breakpoint($lg) {
+    margin-bottom: 120px;
+  }
+}
+
+.margin-bottom-heavy {
+  margin-bottom: 80px;
+
+  @include breakpoint($md) {
+    margin-bottom: 160px;
+  }
+
+  @include breakpoint($lg) {
+    margin-bottom: 240px;
+  }
+}
+
+.bust-out {
+  @include bust-out;
+}

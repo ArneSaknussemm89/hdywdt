@@ -1,0 +1,27 @@
+uuid: 78f84bc3-3bff-4e04-8732-82e31a231aec
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - hdywtdt
+_core:
+  default_config_hash: KwuE97yvtadQ87ofKhHWifSNCFsSEse8fyeeVJBoQN0
+id: hdywtdt_main_menu
+theme: hdywtdt
+region: navbar
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

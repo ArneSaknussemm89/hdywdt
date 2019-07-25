@@ -1,0 +1,27 @@
+uuid: e9bd3497-6350-45c9-8696-194eebf2e92e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - hdywdt
+_core:
+  default_config_hash: ZGKOpCR_TCFma4nBVVKgoOw3icDlzKtldXwy0kiorJQ
+id: hdywdt_main_menu
+theme: hdywdt
+region: navbar
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

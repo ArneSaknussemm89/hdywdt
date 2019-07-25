@@ -1,0 +1,20 @@
+// Tile
+//
+// This is the Tile component. It's an example.
+//
+// Markup: tile.twig
+//
+// Style guide: Components.tile
+
+// Import site utilities.
+@import '../../global/utils/init';
+
+.tile__container {
+  @include breakpoint($md) {
+    margin-left: $gutter-width;
+  }
+
+  @include breakpoint($lg) {
+    margin-left: $gutter-width * 2;
+  }
+}

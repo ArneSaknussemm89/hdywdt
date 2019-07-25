@@ -1,0 +1,20 @@
+uuid: 920e157f-2b95-465c-9e02-a9c998a0c387
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hdywtdt
+_core:
+  default_config_hash: AM6FI7d3ru9a0Sa4XYcNwgFC0z53PBQ9v_ZZ0EwQQmA
+id: hdywtdt_local_actions
+theme: hdywtdt
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

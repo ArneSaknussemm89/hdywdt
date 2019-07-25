@@ -1,0 +1,26 @@
+tile:
+  label: Tile
+  description: A horizontal tile.
+  template: tile
+  use: "@hdywtdt/tile/tile.twig"
+  fields:
+    media:
+      type: renderable
+      label: Media
+      description: A renderable media item.
+      preview: <div class='media'><img src='https://placeimg.com/300/150/nature' alt='nature'/></div>
+    title:
+      type: text
+      label: Title
+      description: The tile title.
+      preview: "Campaign 1: Episode 1"
+    content:
+      type: renderable
+      label: Content
+      description: The body content of the tile.
+      preview: Lorem ipsum dolor et nestrum artems arit gor.
+    bottom_row:
+      type: renderable
+      label: Bottom Row
+      description: The bottom of the row, ideally a renderable.
+      preview: <div class="field-tags flex-container flex-dir-row"><div>Item 1</div><div>Item 2</div><div>Item 3</div><div>Item 4</div></div>

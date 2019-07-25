@@ -1,0 +1,254 @@
+@import '../utils/init';
+
+footer {
+  max-height: 100%;
+  background-color: $color-full-card-background;
+  color: $color-tundora;
+}
+
+.footer-regions__outer,
+.footer-regions__upper {
+  width: 100%;
+  min-height: 250px;
+}
+
+.footer-regions__outer {
+  padding: 30px 0;
+}
+
+.footer-regions__logobar__dots {
+  @include bust-out;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  right: 0;
+  height: 75px;
+  width: 100vw;
+  background: url('../../images/dotted-grid.png') repeat-x 0 0;
+
+  @include breakpoint($lg) {
+    bottom: 90px;
+  }
+}
+
+.footer-regions__logobar {
+  position: relative;
+  max-height: 225px;
+
+  .footer-regions__logobar__logo {
+    position: relative;
+    z-index: 1;
+    background-color: $color-full-card-background;
+    width: 235px;
+    height: 110px;
+
+    @include breakpoint($lg) {
+      width: 335px;
+      height: 210px;
+    }
+
+    img {
+      display: block;
+      margin: 55px 60px 45px 55px;
+    }
+  }
+}
+
+.footer-regions__logobar__logo__img {
+  position: absolute;
+  left: 50%;
+  width: 95px;
+  height: 90px;
+  margin: 0;
+  background-color: $color-button-gray;
+  transform: translateX(-50%);
+
+  @include breakpoint($lg) {
+    width: 175px;
+    height: 160px;
+  }
+
+  .logo {
+    height: 100%;
+    width: 100%;
+    background: url('../../images/logo-footer.png') no-repeat 50% 50%;
+    background-size: 55px 65px;
+
+    @include breakpoint($lg) {
+      background-size: 50%;
+    }
+  }
+}
+
+.footer--menu--header {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.footer-regions__menu {
+  text-transform: uppercase;
+  color: $color-green-3;
+  margin: 0;
+
+  @include breakpoint($bp-md) {
+    margin: 0 20px;
+  }
+
+  nav { // sass-lint:disable-block nesting-depth
+    width: 100%;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      max-height: 100%;
+
+      @include breakpoint($bp-md) {
+        flex-wrap: wrap;
+        max-height: 550px;
+      }
+
+      li {
+        margin-bottom: 25px;
+        margin-right: 60px;
+        margin-left: 0;
+
+        @include breakpoint($bp-md) {
+          margin-left: 30px;
+        }
+
+
+        ul {
+          margin-top: 25px;
+
+          li {
+            list-style: initial;
+            margin-left: 20px;
+            margin-bottom: 0;
+            color: $color-green-3;
+
+            a {
+              font-size: 14px;
+              text-decoration: none;
+              color: $color-tundora;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer-regions__info {
+  text-align: center;
+  font-size: 16px;
+  margin-right: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 0;
+
+  @include breakpoint($bp-md) {
+    margin-bottom: 0;
+    padding: 0 30px;
+    width: auto;
+  }
+
+
+  .footer--site-address-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #block-siteaddress { // sass-lint:disable-line no-ids
+    margin-top: 40px;
+  }
+
+  .footer-regions__info__social-links {
+    margin: auto;
+    padding-top: 30px;
+    width: auto;
+    display: inline-flex;
+
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+
+    .social-links {
+      text-indent: -9999px;
+      background-size: 36px 36px;
+      background-repeat: no-repeat;
+      width: 36px;
+      height: 36px;
+      max-width: 36px;
+      margin: 0 10px;
+    }
+
+    .social-icon-facebook {
+      background-image: url('../../images/facebook-icon.png');
+    }
+
+    .social-icon-instagram {
+      background-image: url('../../images/instagram-icon.png');
+    }
+
+    .social-icon-youtube {
+      background-image: url('../../images/youtube-icon.png');
+    }
+  }
+}
+
+.footer-regions__thirdcol {
+  margin-left: 0;
+  font-size: 14px;
+  margin-bottom: 50px;
+
+  @include breakpoint($bp-md) {
+    margin-left: 40px;
+    margin-bottom: 0;
+  }
+
+  form {
+    input {
+      width: 100%;
+      margin: 10px 0;
+      background-image: none !important; // sass-lint:disable-line no-important
+      padding: 12px 18px;
+      text-transform: capitalize;
+      font-size: 14px;
+      border: 0;
+      font-weight: 400;
+    }
+
+    button {
+      background-color: $color-button-gray;
+      color: $color-white;
+      text-align: center;
+      width: 100%;
+      margin: 10px 0;
+      padding: 15px 0;
+      font-size: 14px;
+
+      @include breakpoint($bp-md) {
+        width: 60%;
+      }
+    }
+  }
+
+  #block-termsconditions { // sass-lint:disable-line no-ids
+    text-align: right;
+    margin-top: 150px;
+
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: $color-green-3;
+      font-weight: 700;
+    }
+  }
+
+}

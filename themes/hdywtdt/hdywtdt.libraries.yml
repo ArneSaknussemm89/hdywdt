@@ -1,0 +1,16 @@
+global-style:
+  version: VERSION
+  css:
+    base:
+      dist/css/global.css: {}
+
+# Page level CSS
+patterns-overview-page:
+  css:
+    layout:
+      dist/css/patterns-overview-page.css: {}
+
+tile:
+  css:
+    component:
+      dist/css/tile.css: {}

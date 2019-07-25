@@ -1,15 +1,12 @@
-uuid: 59ebca46-5bf6-4f16-a323-442c2b9f132c
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - uikit
-_core:
-  default_config_hash: A3b-ddKMjTWsrOZHEINw7QtKxVfYJGyhvT06E1Osm1w
-id: uikit_branding
-theme: uikit
+    - hdywtdt
+id: hdywtdt_branding
+theme: hdywtdt
 region: navbar
 weight: -6
 provider: null

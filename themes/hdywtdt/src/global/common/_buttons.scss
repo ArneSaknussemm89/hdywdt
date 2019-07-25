@@ -1,0 +1,10 @@
+@import '../utils/init';
+
+.church-btn,
+.give-btn {
+  text-decoration: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  padding: 8px 20px;
+  text-transform: uppercase;
+}

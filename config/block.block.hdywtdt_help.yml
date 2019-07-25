@@ -1,0 +1,22 @@
+uuid: 08eda2b2-b43c-4ef7-9e5e-26357d14e1c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hdywtdt
+_core:
+  default_config_hash: ZJVL2hB21i5fApeGdbUCFTWIvms2LYHxJNsj55HC7RQ
+id: hdywtdt_help
+theme: hdywtdt
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,7 +1,7 @@
 uuid: c15cbcec-9315-4436-a28a-7f74fb99f208
-name: 'Drush Site-Install'
+name: 'How Do You Wanna Do This?'
 mail: admin@example.com
-slogan: ''
+slogan: 'The famous catch phrase by Matthew Mercer used on the hit show ''Critical Role''.'
 page:
   403: ''
   404: ''

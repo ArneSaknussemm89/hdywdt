@@ -1,0 +1,842 @@
+@import '../utils/init';
+
+// To make the fullscreen loader look better
+.ajax-progress {
+  &.ajax-progress-fullscreen {
+    display: flex;
+    background: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    opacity: 1;
+
+    &::before {
+      content: '';
+      margin: auto;
+      height: 125px;
+      width: 125px;
+      background: none;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 45%;
+      left: 48.5%;
+      height: 50px;
+      width: 50px;
+      border-top: 4px solid $color-white;
+      border-right: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 4px solid $color-white;
+      border-radius: 50%;
+      animation: ajax-spinner 500ms linear infinite;
+    }
+  }
+
+  &.ajax-progress-throbber {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+
+    .throbber {
+      background: none;
+      height: 26px;
+      width: 26px;
+      border-top: 2px solid $color-dialog-primary;
+      border-right: 2px solid transparent;
+      border-bottom: 2px solid transparent;
+      border-left: 2px solid $color-dialog-primary;
+      border-radius: 50%;
+      animation: ajax-spinner 500ms linear infinite;
+    }
+  }
+}
+
+.ui-dialog.ui-dialog-off-canvas {
+  .ui-dialog-title {
+    max-width: 100%;
+    overflow: visible;
+    white-space: normal;
+    text-overflow: unset;
+  }
+}
+
+.ui-dialog-position-top {
+  .layout-builder__add-block {
+    position: relative;
+    padding-bottom: 60px;
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+}
+
+#drupal-off-canvas { // sass-lint:disable-line no-ids
+  background-color: $color-alabaster;
+
+  details {
+    background-color: inherit;
+
+    &.form-wrapper {
+      .container-inline {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+        // Some of the off-canvas styling is pretty specific.
+        // There is also a lack of usable class names. Needing to fight it here.
+        > * { //sass-lint:disable-line nesting-depth
+          flex: 1 1 auto;
+        }
+      }
+    }
+  }
+
+  div {
+    &[data-drupal-selector='edit-settings-block-form'] {
+      > .form-wrapper {
+        // Drupal admin CSS is either specific or has very few usable classes. Ugh.
+        &:not(last-child) { //sass-lint:disable-line nesting-depth
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+
+  fieldset {
+    margin: 0;
+    box-shadow: $card-shadow;
+    background: $color-white;
+  }
+
+  form {
+    color: $color-black;
+  }
+
+  input[type='submit'] {
+    &.button {
+      display: block;
+      border-radius: $button-border-radius;
+      padding: $button-padding;
+      margin-left: auto;
+      margin-right: auto;
+
+      &.button--primary {
+        background-color: $color-dialog-primary;
+
+        &:hover {
+          background-color: darken($color-dialog-primary, 5);
+        }
+      }
+
+      &.paragraphs-icon-button {
+        background-color: $color-dialog-secondary;
+        margin-bottom: 0;
+      }
+
+      &.media-library-item__remove {
+        width: auto;
+        background-color: $color-dialog-cancel;
+        color: $color-white;
+      }
+    }
+  }
+
+  input[type='text'] {
+    border: 1px solid $color-silver;
+    background: $color-white;
+    box-shadow: none;
+  }
+
+  input[name*='media-library-update-settings'] {
+    &.button {
+      background-color: $color-dialog-secondary;
+    }
+  }
+
+  label {
+    color: $color-black;
+  }
+
+  span {
+    &.fieldset-legend {
+      color: $color-white;
+      background-color: $color-dialog-secondary;
+      padding: 2px 5px;
+    }
+  }
+
+  table {
+    margin: 0 -20px;
+
+    th {
+      text-align: left;
+      color: $color-charcoal;
+    }
+  }
+
+  thead {
+    h3,
+    h4 {
+      margin: 0;
+    }
+
+    .paragraphs-actions {
+      margin: 0 10px 10px 0;
+    }
+  }
+
+  td {
+    &.inline-entity-form-block_content-label { //sass-lint:disable-line class-name-format
+      display: none;
+    }
+
+    &:first-child {
+      width: 50px;
+    }
+
+    &:hover {
+      .paragraphs-collapsed-description {
+        &::after {
+          background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, $color-alabaster 100%);
+        }
+      }
+    }
+
+    .form-item {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  tr {
+    &:hover {
+      td {
+        &:not(.ief-row-entity) {
+          background: $color-titanium;
+        }
+      }
+    }
+  }
+
+  .block-categories {
+    li {
+      width: auto;
+      background-color: $color-white;
+      color: $color-black;
+      border: 0;
+
+      &:first-child {
+        margin-top: 0.5rem;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+
+      &:hover {
+        background-color: $color-black;
+        color: $color-white;
+
+        > * {
+          color: $color-white;
+        }
+      }
+
+      > * {
+        display: block;
+        width: 100%;
+        padding: $button-padding;
+        text-decoration: none;
+      }
+    }
+  }
+
+  // Fixes for color field in the off-canvas menu.
+  .color_field_widget_box__square, // sass-lint:disable-line class-name-format
+  .color_field_widget_box__square--transparent { // sass-lint:disable-line class-name-format
+    box-shadow: 0 0 1px $color-black;
+    margin: 5px;
+
+    &.active,
+    &:hover {
+      box-shadow: none;
+      border: 1px solid $color-black;
+      height: 16px;
+      width: 16px;
+      transform: scale(1.75);
+    }
+  }
+
+  .dialog-cancel {
+    display: block;
+    width: 100%;
+    padding: 4px 20px;
+    background: none;
+    font-size: 14px;
+    color: $color-dialog-cancel;
+  }
+
+  .field-description {
+    color: $color-black;
+    margin: 1rem 0;
+  }
+
+  .fieldset-wrapper {
+    padding: 0 1rem;
+  }
+
+  .form-item-settings-admin-label {
+    label {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .form-item {
+    .description {
+      color: $color-black;
+      margin: 0.5rem 0;
+    }
+
+    div {
+      &.text-full {
+        font-size: 14px;
+        padding: 10px;
+        background-color: $color-titanium;
+        color: $color-white;
+      }
+    }
+
+    &.js-form-type-textfield {
+      margin-bottom: 0;
+    }
+  }
+
+  .form-text {
+    width: 100%;
+  }
+
+  .form-url {
+    max-width: 400px;
+  }
+
+  .inline-block-create-button {
+    background-color: $color-dialog-primary;
+    color: $color-white;
+    text-decoration: none;
+
+    &:hover {
+      background-color: darken($color-dialog-primary, 10);
+    }
+  }
+
+  .inline-block-list {
+    + a {
+      padding: 8px 20px;
+      background-color: $color-dialog-cancel;
+      color: $color-white;
+      text-decoration: none;
+
+      &:hover {
+        background-color: darken($color-dialog-cancel, 10);
+      }
+
+      &::before {
+        content: '<';
+        display: inline-block;
+        margin-right: 0.5rem;
+        color: $color-white;
+      }
+    }
+  }
+
+  .inline-block-list__item {
+    background: none;
+    color: $color-charcoal;
+    cursor: pointer;
+
+    &:hover {
+      background: $color-charcoal;
+      color: $color-white;
+    }
+  }
+
+  .ief-entity-table {
+    margin-bottom: 1rem;
+  }
+
+  .js-form-type-textarea {
+    margin-bottom: 0;
+  }
+
+  .layout-builder__selection {
+    li {
+      > a {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        text-decoration: none;
+      }
+
+      img {
+        max-height: 90px;
+      }
+
+      div {
+        margin: auto 0;
+      }
+    }
+
+    .layout-icon,
+    img {
+      margin-right: 1rem;
+      min-width: 60px;
+    }
+  }
+
+  .layout-builder__add-block {
+    padding-bottom: 4rem;
+  }
+
+  .paragraphs-content {
+    padding: 10px;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.33);
+    background: $color-white;
+
+    fieldset {
+      box-shadow: none;
+      border: 0;
+    }
+
+    label {
+      font-size: 0.9rem;
+    }
+
+    span {
+      &.fieldset-legend {
+        padding: 5px 8px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .media-library-item__preview {
+    > div {
+      display: flex;
+    }
+
+    img {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+  .media-library-widget__toggle-weight {
+    top: 10px;
+  }
+
+  .media-library-open-button,
+  .media-library-add-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: $button-padding;
+    background-color: $color-dialog-primary;
+    color: $color-white;
+    border-radius: $button-border-radius;
+  }
+
+  .media-library-add-button {
+    margin-left: 1rem;
+  }
+
+  .paragraphs-collapsed-description {
+    text-align: right;
+
+    &::after {
+      background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, $color-alabaster 100%);
+    }
+  }
+
+  .paragraph-type-label {
+    color: $color-charcoal;
+  }
+}
+
+/**
+ * Layout Builder in-page elements
+ */
+#layout-builder { //sass-lint:disable-line no-ids
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0 $gutter-width;
+  border: 0;
+
+  .layout-builder__add-section {
+    &:first-child {
+      margin-bottom: 3rem;
+    }
+
+    &:not(:first-child) {
+      margin: 3rem 0;
+    }
+  }
+
+  // Make sure contextual links menu appear above all elements.
+  .contextual-links {
+    z-index: 45;
+  }
+
+  .contextual {
+    .trigger {
+      z-index: 50;
+    }
+  }
+
+  // If we have no has-background class, we need to absolutely position the background element.
+  .layout {
+    &:not(.has-background) {
+      .layout__region--background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      .layout-content-overlay {
+        position: relative;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  // Our background areas need to sit above the title.
+  .layout__region--background {
+    .contextual {
+      display: block !important; // sass-lint:disable-line no-important
+
+      .trigger {
+        clip: unset;
+      }
+    }
+  }
+
+  // Media contextual links we don't wanna show.
+  [data-contextual-id*='media:media'] {
+    &.contextual {
+      display: none !important; // sass-lint:disable-line no-important
+    }
+  }
+
+  // Layout builder highlighting
+  [data-layout-builder-highlight-id] {
+    &.layout-builder-highlight {
+      background-color: $color-white;
+      z-index: 40;
+      box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  /* Menu Content Item styles */
+  .menu-item {
+    // Immediate a tags should be slightly styled at least.
+    > a {
+      display: inline-block;
+      position: relative;
+      padding: 32px 0;
+      color: $color-menu-text;
+      text-transform: uppercase;
+      font-weight: bold;
+
+      &::after {
+        content: attr(data-subtext);
+        display: block;
+        font-style: italic;
+        font-weight: 200;
+        text-transform: lowercase;
+        font-size: 12px;
+      }
+    }
+
+    &.menu-item--expanded {
+      > .menu_link_content { // sass-lint:disable-line class-name-format
+        position: relative;
+        margin-left: 60px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 3rem;
+          left: 0;
+          height: calc(100% - 3rem);
+          width: 30px;
+          background: transparent;
+          border-top: 1px solid $color-black;
+          border-left: 1px solid $color-black;
+          border-bottom: 1px solid $color-black;
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -30px;
+          height: 50%;
+          width: 30px;
+          background: transparent;
+          border-left: 1px solid $color-black;
+          border-bottom: 1px solid $color-black;
+        }
+
+        > * {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}
+
+.layout-builder__add-section {
+  .layout-builder__link {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    margin: auto;
+    padding: 1.5rem 0 1.5rem 2rem;
+    font-size: 28px;
+    text-decoration: none;
+    color: $lb-link-color;
+    background: none;
+
+    &::before {
+      content: '+';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      font-size: 36px;
+      line-height: 22px;
+      color: $lb-link-color;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.layout-builder__add-block,
+.layout-builder__update-block {
+  .filter-guidelines {
+    display: none;
+  }
+
+  .layout-builder__link {
+    display: inline-block;
+    width: auto;
+    color: $lb-link-color;
+    font-size: 28px;
+    text-decoration: none;
+    background: none;
+
+    &::before {
+      color: $lb-link-color;
+    }
+
+    &:hover {
+      color: darken($lb-link-color, 0.2);
+    }
+  }
+}
+
+.layout-builder__section {
+  position: relative;
+  margin: 3rem 0;
+
+  // The Background region is pretty common. Want the link to appear at the bottom left hand corner of the region.
+  .layout-builder__region {
+    &.layout__region--background {
+      background-color: $color-gallery;
+
+      .layout-builder-block ~ .layout-builder__add-block {
+        display: none;
+      }
+
+      .layout-builder__add-block {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-bottom: 0;
+
+        &::before {
+          content: unset;
+        }
+      }
+
+      .layout-builder__link--add {
+        position: relative;
+        padding: 1rem 0 0 2rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        text-indent: -9999px;
+        z-index: 10;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &::before {
+          content: '+';
+          position: absolute;
+          top: 50%;
+          left: 30px;
+          height: 20px;
+          width: 20px;
+          font-size: 36px;
+          line-height: 22px;
+          color: $lb-link-color;
+          transform: translateY(-50%);
+          text-indent: 0;
+        }
+
+        &::after {
+          content: 'Add Background';
+          position: absolute;
+          display: block;
+          left: 100%;
+          top: 50%;
+          white-space: nowrap;
+          color: $lb-link-color;
+          text-decoration: none;
+          text-indent: 0;
+          transform: translateX(-15%) translateY(-50%);
+        }
+      }
+    }
+
+    .layout-builder__add-block {
+      display: block;
+      position: relative;
+      width: 100%;
+      margin: 16px auto auto;
+      padding: 1.5rem 0 1.5rem 2rem;
+      text-align: left;
+      font-size: 28px;
+
+      &::before {
+        content: '+';
+        position: absolute;
+        top: 50%;
+        left: 30px;
+        height: 20px;
+        width: 20px;
+        font-size: 36px;
+        line-height: 22px;
+        color: $lb-link-color;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+.layout-builder__region {
+  position: relative;
+}
+
+.layout-builder__message {
+  padding: 0 $gutter-width;
+}
+
+.layout-builder-form {
+  .form-actions {
+    margin: 0 $gutter-width 0 ($gutter-width + 8px);
+    padding: $gutter-width $gutter-width $gutter-width ($gutter-width + 16px);
+    background-color: #d9edf7;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #0074bd #0074bd #0074bd transparent;
+    border-top-left-radius: 0;
+    box-shadow: -8px 0 0 #0074bd;
+
+    input[type='submit'] {
+      @include ghost-button-mono;
+      font-size: 14px;
+    }
+  }
+
+  .form-item-advanced {
+    margin: 0 $gutter-width;
+  }
+
+  .form-item-toggle-content-preview {
+    margin-top: 16px;
+  }
+
+  .js-form-type-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  input[type='checkbox'] {
+    -webkit-appearance: none; // sass-lint:disable-line no-vendor-prefixes
+    -moz-appearance: none; // sass-lint:disable-line no-vendor-prefixes
+    appearance: none;
+    border: 1px solid #8e929c;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #fff no-repeat 50% 50%;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='10' viewBox='0 0 12 10'xmlns='….2045 .637365L10.0234 .82765L4.18182 6.96572Z' fill='white' /%3E%3C/svg%3E"); // sass-lint:disable-line quotes
+    background-size: 100% 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 0 4px transparent;
+    vertical-align: text-bottom;
+
+    &:checked {
+      background-color: #003cc5;
+      border-color: #003cc5;
+      background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.7949219,7.095703 6.1816406,9.601563 12.205078,3.2753906 13.689453,4.8359375 6.1816406,12.724609 2.3105469,8.65625 Z' fill='white'/%3E%3C/svg%3E"); // sass-lint:disable-line quotes
+    }
+
+    & ~ label {
+      margin-left: 5px;
+    }
+  }
+}
+
+@keyframes ajax-spinner {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes three-dots-loader {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}

@@ -1,0 +1,228 @@
+@import '../utils/init';
+
+// sass-lint:disable class-name-format
+
+.button {
+  &[class*='bg-color-'] {
+    display: inline-block;
+    padding: $button-padding;
+    color: $color-white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    a {
+      display: inline-block;
+      color: $color-white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.bg-color-969697 {
+  background-color: $color-titanium;
+  color: $color-white;
+}
+
+.bg-color-F7F7F7 {
+  background-color: $color-alabaster;
+  color: $color-black;
+}
+
+.bg-color-F1F1F1 {
+  background-color: $color-f1f1f1;
+  color: $color-black;
+}
+
+.bg-color-404041 {
+  background-color: $color-title-background;
+  color: $color-white;
+}
+
+.bg-color-50B7D0 {
+  background-color: $color-blue-4;
+  color: $color-white;
+}
+
+.bg-color-FAAF40-opacity {
+  background-color: rgba($color-orange, 0.8);
+}
+
+.bg-color-E9BD00-opacity {
+  background-color: rgba($color-yellow-gold, 0.8);
+}
+
+.bg-color-539FB9-opacity {
+  background-color: rgba($color-ocean-blue, 0.8);
+}
+
+.bg-color-357455-opacity {
+  background-color: rgba($color-green-3, 0.8);
+}
+
+.bg-color-166285-opacity {
+  background-color: rgba($color-blue-3, 0.8);
+}
+
+.bg-color-AC3D36-opacity {
+  background-color: rgba($color-red-3, 0.8);
+}
+
+.bg-color-FAAF40 {
+  background-color: $color-orange;
+  color: $color-white;
+}
+
+.bg-color-E9BD00 {
+  background-color: $color-yellow-gold;
+  color: $color-white;
+}
+
+.bg-color-539FB9 {
+  background-color: $color-ocean-blue;
+  color: $color-white;
+}
+
+.bg-color-2A9FD5 {
+  background-color: $color-blue-1;
+  color: $color-white;
+}
+
+.bg-color-166285 {
+  background-color: $color-blue-2;
+  color: $color-white;
+}
+
+.bg-color-3E996C {
+  background-color: $color-green-1;
+  color: $color-white;
+}
+
+.bg-color-357455 {
+  background-color: $color-green-2;
+  color: $color-white;
+}
+
+.bg-color-836AA2 {
+  background-color: $color-purple-1;
+  color: $color-white;
+}
+
+.bg-color-EE4136 {
+  background-color: $color-red-1;
+  color: $color-white;
+}
+
+.bg-color-AC3D36 {
+  background-color: $color-red-2;
+  color: $color-white;
+}
+
+.bg-color-BDBDBD {
+  background-color: $color-bdbdbd;
+  color: $color-white;
+}
+
+.color-969697 {
+  color: $color-titanium;
+}
+
+.color-F7F7F7 {
+  color: $color-alabaster;
+}
+
+.color-F1F1F1 {
+  color: $color-f1f1f1;
+}
+
+.color-404041 {
+  color: $color-title-background;
+}
+
+.color-FAAF40 {
+  color: $color-orange;
+}
+
+.color-E9BD00 {
+  color: $color-yellow-gold;
+}
+
+.color-539FB9 {
+  color: $color-ocean-blue;
+}
+
+.color-2A9FD5 {
+  color: $color-blue-1;
+}
+
+.color-166285 {
+  color: $color-blue-2;
+}
+
+.color-3E996C {
+  color: $color-green-1;
+}
+
+.color-357455 {
+  color: $color-green-2;
+}
+
+.color-836AA2 {
+  color: $color-purple-1;
+}
+
+.color-EE4136 {
+  color: $color-red-1;
+}
+
+.color-AC3D36 {
+  color: $color-red-2;
+}
+
+.blue-to-green-background {
+  background-image: linear-gradient(to right, $color-ocean-blue-opacity, $color-dark-green-opacity);
+}
+
+.blue-to-purple-background {
+  background-image: linear-gradient(to right, $color-blue-1-opacity, $color-purple-1-opacity);
+}
+
+.green-to-mustard-background {
+  background-image: linear-gradient(to right, $color-green-opacity, $color-mustard-opacity);
+}
+
+.green-to-purple-background {
+  background-image: linear-gradient(to right, $color-dark-green-opacity, $color-purple-2-opacity);
+}
+
+.purple-background {
+  background-color: $color-purple-background-opacity;
+}
+
+.gray-background {
+  background-color: $color-alabaster;
+}
+
+.medium-gray-background {
+  background-color: $color-alto;
+}
+
+.dark-gray-background {
+  background-color: $color-tundora;
+}
+
+.white-background {
+  background-color: $color-white;
+}
+
+.white-opacity-background {
+  background-color: $color-white-opacity-background;
+}

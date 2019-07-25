@@ -1,4 +1,3 @@
-uuid: c37d683d-2fd0-49a8-b675-f3d693e193e9
 langcode: en
 status: true
 dependencies:
@@ -7,11 +6,9 @@ dependencies:
   module:
     - system
   theme:
-    - uikit
-_core:
-  default_config_hash: 9XPoZ9ouIrkLnS2ek3cBn7AvsKIDGonODNdTuNjM_28
-id: uikit_tools
-theme: uikit
+    - hdywtdt
+id: hdywtdt_tools
+theme: hdywtdt
 region: sidebar_first
 weight: 0
 provider: null
@@ -23,5 +20,4 @@ settings:
   label_display: visible
   level: 1
   depth: 0
-  expand_all_items: false
 visibility: {  }

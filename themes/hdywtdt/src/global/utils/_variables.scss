@@ -1,0 +1,56 @@
+//=======================================================
+// Variables
+//=======================================================
+
+$zi-highest: 50;
+$zi-high: 40;
+$zi-medium: 30;
+$zi-low: 20;
+$zi-lowest: 10;
+$zi-ground: 0;
+$zi-below-ground: -1;
+
+
+// variables to override Koality Grid defaults
+$row-width: 1400px;
+$inner-row-width: 1200px;
+
+$default: 0;
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1200px;
+$jumbo: 2000px;
+
+$sm-only: 0 767px;
+$md-only: $md 1023px;
+$lg-only: $lg $jumbo;
+
+$md-down: 0 $md;
+$xl-down: 0 $xl;
+$lg-down: 0 $lg;
+$jumbo-down: 0 $jumbo;
+
+$gutter-width: 15px;
+
+//===================
+// Buttons
+//===================
+$button-padding: 8px 20px;
+$button-border-radius: 5px;
+
+
+//===================
+// Cards
+//===================
+$card-shadow: 0 2px 4px rgba(0, 0, 0, 0.33);
+
+//===================
+// Layout Builder
+//===================
+$lb-link-color: $color-blue-1;
+
+//===========
+// Margins
+//===========
+$margin-baseline: 10px;

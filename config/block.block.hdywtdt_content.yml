@@ -1,0 +1,22 @@
+uuid: 436c3978-0b92-443a-aaec-0d115df158ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hdywtdt
+_core:
+  default_config_hash: M-2_O17ayJncTdKKM27Gnz2egNL0-e5QyU9ZMv0CEmo
+id: hdywtdt_content
+theme: hdywtdt
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

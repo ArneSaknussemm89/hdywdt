@@ -1,0 +1,7 @@
+@media (min-width: 768px) {
+  .tile__container {
+    margin-left: 15px; } }
+
+@media (min-width: 1024px) {
+  .tile__container {
+    margin-left: 30px; } }
