@@ -1,0 +1,19 @@
+uuid: 0f582edd-def8-4ecf-86e3-c9bd19a2a6d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_hdywdt_killing_blow
+field_name: field_hdywdt_killing_blow
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

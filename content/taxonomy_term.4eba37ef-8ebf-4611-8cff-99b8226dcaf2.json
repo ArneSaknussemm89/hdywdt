@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "4eba37ef-8ebf-4611-8cff-99b8226dcaf2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-28T05:13:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 68: Cloak and Dagger"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Hot on the heels of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Anna_Ripley\">Dr. Anna Ripley<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> finds themselves on the beach of the isle of glass.<\/p>\r\n\r\n<p>The party prepares as their confrontation with Ripley draws near. Old demons and new discoveries will surface on the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Isle_of_Glintshore\">isle of Glintshore<\/a>.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Cloak_and_Dagger\">https:\/\/criticalrole.fandom.com\/wiki\/Cloak_and_Dagger<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 12
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "26bf1840-28aa-43a8-a291-c609e9dbe807"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-28T05:13:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

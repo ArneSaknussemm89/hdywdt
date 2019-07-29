@@ -1,0 +1,72 @@
+{
+    "uuid": [
+        {
+            "value": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-26T03:02:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Chapter 1: Beneath the Mines of Kraghammer"
+        }
+    ],
+    "description": [],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "bdd03345-a05a-48a7-8935-c3def24d122b"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:02:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

@@ -17,4 +17,18 @@
   @include breakpoint($lg) {
     margin-left: $gutter-width * 2;
   }
+
+  .tile__container__bottom-row {
+    > * {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.tile__media {
+  > * {
+    margin-bottom: 0;
+  }
 }

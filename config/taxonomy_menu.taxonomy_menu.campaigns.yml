@@ -1,0 +1,16 @@
+uuid: f7aad39e-a88f-47b6-b425-056fe771cb33
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.campaigns
+id: campaigns
+label: Campaigns
+vocabulary: campaigns
+menu: main
+expanded: false
+depth: 2
+menu_parent: 'main:menu_link_content:4117406c-b5cf-4322-a416-7fb5c657ec42'
+description_field_name: description
+use_term_weight_order: true

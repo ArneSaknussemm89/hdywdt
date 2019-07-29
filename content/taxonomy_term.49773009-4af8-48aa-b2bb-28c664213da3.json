@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "49773009-4af8-48aa-b2bb-28c664213da3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:24:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 56: Hope"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>As the citizens of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Westruun\">Westruun<\/a> learn of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Umbrasyl_(character)\">Umbrasyl<\/a>'s demise, they must decide whether to flee possible retaliation from the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Chroma_Conclave\">Chroma Conclave<\/a> or reclaim their city.&nbsp;<\/p>\r\n\r\n<p>With the burden of so many lives and so much destruction, the members of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> struggle with their own responsibilities and destinies.&nbsp; Perhaps a <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Kerrek\">humble paladin<\/a> can restore the hope of frightened citizens and powerful heroes alike...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Hope\">https:\/\/criticalrole.fandom.com\/wiki\/Hope<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 18
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ead94cc5-d2b4-4f58-9f84-c7fe4acc5bfa"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:24:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "c9cd6b2a-f68d-4b0f-8165-1bb09c1783d4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-25T19:45:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 3: Strange Bedfellows"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>After saving <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Grog_Strongjaw\">Grog<\/a>, the party comes across a duergar war camp controlled by a mind flayer.<\/p>\r\n\r\n<p>After a failed initial attack, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vex%27ahlia\">Vex'ahlia<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Keyleth\">Keyleth<\/a> find a powerful and unlikely ally.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Strange_Bedfellows\">https:\/\/criticalrole.fandom.com\/wiki\/Strange_Bedfellows<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 2
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:03:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

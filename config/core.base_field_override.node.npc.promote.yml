@@ -1,0 +1,22 @@
+uuid: 8316fcb0-3120-41c3-b8f7-299a367d7b4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.npc
+id: node.npc.promote
+field_name: promote
+entity_type: node
+bundle: npc
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

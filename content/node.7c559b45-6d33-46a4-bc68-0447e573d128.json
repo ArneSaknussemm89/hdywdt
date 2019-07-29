@@ -1,0 +1,100 @@
+{
+    "uuid": [
+        {
+            "value": "7c559b45-6d33-46a4-bc68-0447e573d128"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "pc",
+            "target_type": "node_type",
+            "target_uuid": "af15bc9d-9a8f-46b2-a3db-2334702d96b5"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-07-28T05:24:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "79f7e84d-79cd-4480-9384-20c987ef678d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "79f7e84d-79cd-4480-9384-20c987ef678d"
+        }
+    ],
+    "title": [
+        {
+            "value": "Percival Fredrickstein Von Musel Klossowski de Rolo III"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-28T05:24:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-28T05:24:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "menu_link": [
+        {
+            "target_id": null
+        }
+    ],
+    "field_pc_description": [],
+    "field_pc_voiced_by": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "94e0e3f5-b2ad-4823-9c96-3a699a547c2b"
+        }
+    ]
+}

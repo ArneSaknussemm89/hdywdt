@@ -1,0 +1,21 @@
+uuid: 25e12362-4c7a-41c3-a597-66996bdd948a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_npc_description
+    - node.type.npc
+  module:
+    - text
+id: node.npc.field_npc_description
+field_name: field_npc_description
+entity_type: node
+bundle: npc
+label: Description
+description: 'The description of the NPC.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

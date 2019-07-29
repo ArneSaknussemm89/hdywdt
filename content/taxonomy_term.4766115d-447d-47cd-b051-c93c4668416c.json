@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "4766115d-447d-47cd-b051-c93c4668416c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:27:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 60: Heredity and Hats"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Forced by circumstance to enter the elven city of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Syngorn\">Syngorn<\/a> in the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Feywild\">Feywild<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> reluctantly seeks audience with <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vax%27ildan\">Vax'ildan<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vex%27ahlia\">Vex'ahlia<\/a>'s estranged father, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Syldor_Vessar\">Syldor Vessar<\/a>, and his new family.<\/p>\r\n\r\n<p>After a tense reunion, the party acquires diplomatic papers to pursue their agenda in the city\u2014and complete some unscrupulous tasks for their satyr guide, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Garmelie\">Garmelie<\/a>.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Heredity_and_Hats\">https:\/\/criticalrole.fandom.com\/wiki\/Heredity_and_Hats<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 4
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "26bf1840-28aa-43a8-a291-c609e9dbe807"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:27:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

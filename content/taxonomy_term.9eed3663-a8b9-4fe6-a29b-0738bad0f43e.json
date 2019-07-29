@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "9eed3663-a8b9-4fe6-a29b-0738bad0f43e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:23:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 55: Umbrasyl"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>In the midst of battle against <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> and the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Herd_of_Storms\">Herd of Storms<\/a>, the ancient black dragon <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Umbrasyl_(character)\">Umbrasyl<\/a> retreats to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Gatshadow_Mountain\">Gatshadow Mountain<\/a> after sustaining heavy damage.&nbsp;<\/p>\r\n\r\n<p>With <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Scanlan_Shorthalt\">Scanlan Shorthalt<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vax%27ildan\">Vax'ildan<\/a> trapped inside the dragon and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Grog_Strongjaw\">Grog Strongjaw<\/a> hanging from a chain attached to an axe embedded in Umbrasyl's scaled flesh, the party must somehow survive and choose whether to follow the dragon into its lair or wait for another opportunity to slay it later.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Umbrasyl_(episode)\">https:\/\/criticalrole.fandom.com\/wiki\/Umbrasyl_(episode)<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 17
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ead94cc5-d2b4-4f58-9f84-c7fe4acc5bfa"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:23:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

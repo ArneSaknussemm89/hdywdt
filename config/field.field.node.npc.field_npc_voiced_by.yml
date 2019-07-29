@@ -1,0 +1,29 @@
+uuid: 432d7960-b06f-4a1e-a82d-5dfa45091b42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_npc_voiced_by
+    - node.type.npc
+    - taxonomy.vocabulary.actors
+id: node.npc.field_npc_voiced_by
+field_name: field_npc_voiced_by
+entity_type: node
+bundle: npc
+label: 'Voiced By'
+description: 'Who this NPC is voiced by (which is basically by Matt Mercer always).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      actors: actors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

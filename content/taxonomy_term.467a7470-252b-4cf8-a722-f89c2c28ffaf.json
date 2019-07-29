@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "467a7470-252b-4cf8-a722-f89c2c28ffaf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:04:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 37: A Musician's Nostalgia"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p><a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> returns to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Emon\">Emon<\/a> to prove their innocence.&nbsp;<\/p>\r\n\r\n<p>Now on the hunt for the treacherous <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Riskel_Daxio\">Riskel Daxio<\/a>, they must once again face <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Clasp\">the Clasp<\/a>, along with some <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Dr._Dranzel%27s_Spectacular_Traveling_Troupe\">shady characters<\/a> from <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Scanlan\">Scanlan<\/a>'s past.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/A_Musician%27s_Nostalgia\">https:\/\/criticalrole.fandom.com\/wiki\/A_Musician%27s_Nostalgia<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 14
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "547bc9e7-8074-4f94-b2c4-d0b9d77b10a2"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:04:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

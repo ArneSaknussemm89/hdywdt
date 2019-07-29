@@ -1,0 +1,30 @@
+uuid: 57bc2d65-5bf9-4261-82a0-299484268596
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hdywdt_killing_blow
+    - node.type.hdywdt_moment
+    - node.type.npc
+    - node.type.pc
+id: node.hdywdt_moment.field_hdywdt_killing_blow
+field_name: field_hdywdt_killing_blow
+entity_type: node
+bundle: hdywdt_moment
+label: 'Who Got the Killing Blow?'
+description: 'Which character got the killing blow?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      npc: npc
+      pc: pc
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: npc
+field_type: entity_reference

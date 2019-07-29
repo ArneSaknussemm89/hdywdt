@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "aace3c38-ca9b-45d8-8907-7f5dee39ef97"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-28T05:09:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 62: Uninviting Waters"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Still travelling through the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Feywild\">Feywild<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Garmelie\">Garmelie<\/a> finally arrive at the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Gilded_Run\">Gilded Run<\/a>, a series of rivers that separate them from the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Shademurk_Bog\">Shademurk Bog<\/a>.<\/p>\r\n\r\n<p>Nature itself bars passage, and even if they contend with the magical rivers, who knows <a>what lurks below<\/a>?<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Uninviting_Waters\">https:\/\/criticalrole.fandom.com\/wiki\/Uninviting_Waters<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 6
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "26bf1840-28aa-43a8-a291-c609e9dbe807"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-28T05:09:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

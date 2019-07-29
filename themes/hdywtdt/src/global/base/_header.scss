@@ -3,3 +3,33 @@
 .highlighted {
   padding: 0 $gutter-width;
 }
+
+.uk-navbar-nav {
+  li {
+    > span {
+      @include font-stack-base;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      min-height: 80px;
+      padding: 0 15px;
+    }
+  }
+}
+
+.uk-nav-primary {
+  li {
+    > a,
+    > span {
+      padding: 10px 0;
+    }
+  }
+
+  ul {
+    &.uk-nav-sub {
+      padding: 10px 0 10px 15px;
+    }
+  }
+}

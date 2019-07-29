@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "a58eb6c4-8db3-4ac2-8135-7d1a9b5124c3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:48:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 19: Trial of the Take: Part 2"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p><a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Scanlan\">Scanlan<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Percy\">Percy<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vex%27ahlia\">Vex'ahlia<\/a>, and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Grog\">Grog<\/a> continue their quest with <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Lyra\">Lyra<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Zahra_Hydris\">Zahra<\/a> to hunt <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Rimefang\">Rimefang<\/a>, an adult white dragon that was pursued by previous bands of veteran adventurers from the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Slayer%27s_Take\">Slayer's Take<\/a> who never returned!&nbsp;<\/p>\r\n\r\n<p>Is this a suicide mission or a true test of will?<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Trial_of_the_Take:_Part_2\">https:\/\/criticalrole.fandom.com\/wiki\/Trial_of_the_Take:_Part_2<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 3
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "7a466a86-ea54-4570-bf8b-0c45c59f13f3"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:48:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

@@ -3,8 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.hdywdt_moment.field_hdywdt_killing_blow
     - field.field.node.hdywdt_moment.field_hdywdt_moment_content
     - field.field.node.hdywdt_moment.field_hdywdt_moment_teaser_media
+    - field.field.node.hdywdt_moment.field_hdywdt_who_was_killed_
     - field.field.node.hdywdt_moment.field_tags
     - node.type.hdywdt_moment
   module:
@@ -22,6 +24,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_hdywdt_killing_blow:
+    weight: 126
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
   field_hdywdt_moment_content:
     weight: 124
     settings:
@@ -36,6 +47,15 @@ content:
     settings:
       media_types: {  }
     third_party_settings: {  }
+    region: content
+  field_hdywdt_who_was_killed_:
+    weight: 125
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
     region: content
   field_tags:
     weight: 122

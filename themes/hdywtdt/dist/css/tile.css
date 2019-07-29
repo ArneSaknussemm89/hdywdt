@@ -5,3 +5,9 @@
 @media (min-width: 1024px) {
   .tile__container {
     margin-left: 30px; } }
+
+.tile__container .tile__container__bottom-row > *:last-child {
+  margin-bottom: 0; }
+
+.tile__media > * {
+  margin-bottom: 0; }

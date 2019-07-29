@@ -1,0 +1,28 @@
+@import '../../global/utils/init';
+
+.view-hdywtdt-moments {
+  .page-title {
+    margin-bottom: $gutter-width;
+  }
+
+  .view-header {
+    border-bottom: 1px solid $color-charcoal;
+    margin-bottom: $gutter-width * 4;
+  }
+
+  .views-row {
+    &:not(:last-child) {
+      margin-bottom: $gutter-width * 3;
+
+      &::after {
+        content: '';
+        display: block;
+        position: relative;
+        height: 1px;
+        width: 75%;
+        margin: $gutter-width * 3 auto 0;
+        background: $color-silver;
+      }
+    }
+  }
+}

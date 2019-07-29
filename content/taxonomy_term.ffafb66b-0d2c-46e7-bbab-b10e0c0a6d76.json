@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "ffafb66b-0d2c-46e7-bbab-b10e0c0a6d76"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:22:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 53: At Dawn, We Plan!"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p><a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> must decide: leave <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Westruun\">Westruun<\/a> to fight another day, or prepare to face the deadly black dragon <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Umbrasyl_(character)\">Umbrasyl<\/a>?<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/At_Dawn,_We_Plan!\">https:\/\/criticalrole.fandom.com\/wiki\/At_Dawn,_We_Plan!<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 15
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ead94cc5-d2b4-4f58-9f84-c7fe4acc5bfa"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:22:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

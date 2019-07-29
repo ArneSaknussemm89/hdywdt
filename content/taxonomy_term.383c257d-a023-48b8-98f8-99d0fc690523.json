@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "383c257d-a023-48b8-98f8-99d0fc690523"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:14:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 43: Return to Vasselheim"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Now in the relative safety of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vasselheim\">Vasselheim<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> begins planning their first&nbsp;move against the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Chroma_Conclave\">Chroma Conclave<\/a>.<\/p>\r\n\r\n<p>Fortunately, some old friends turn up to offer their aid.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Return_to_Vasselheim\">https:\/\/criticalrole.fandom.com\/wiki\/Return_to_Vasselheim<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 5
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ead94cc5-d2b4-4f58-9f84-c7fe4acc5bfa"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:14:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

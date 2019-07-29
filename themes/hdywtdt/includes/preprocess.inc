@@ -11,6 +11,10 @@
  * @see process.inc
  */
 
+function hdywtdt_preprocess_view(&$variables) {
+
+}
+
 /**
  * Implements template_preprocess_page().
  */

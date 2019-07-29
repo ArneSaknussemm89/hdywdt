@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "0d935ca1-2eca-4b08-ab00-b888a57b18ba"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:47:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 18: Trial of the Take: Part 1"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>With <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> now split, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Scanlan\">Scanlan<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Percy\">Percy<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vex%27ahlia\">Vex'ahlia<\/a>, and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Grog\">Grog<\/a> find themselves teaming up with an unlikely duo assigned by <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vanessa_Cyndrial\">Huntmaster Vanessa Cyndrial<\/a> of the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Slayer%27s_Take\">Slayer's Take<\/a> guild.&nbsp;<\/p>\r\n\r\n<p>The task at hand:&nbsp;ridding the wilds around <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vasselheim\">Vasselheim<\/a> of a troublesome <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Rimefang\">white dragon<\/a> past the frost-harried north of the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vesper_Timberland\">Vesper Timberland<\/a>...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Trial_of_the_Take:_Part_1\">https:\/\/criticalrole.fandom.com\/wiki\/Trial_of_the_Take:_Part_1<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 2
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "7a466a86-ea54-4570-bf8b-0c45c59f13f3"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:47:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

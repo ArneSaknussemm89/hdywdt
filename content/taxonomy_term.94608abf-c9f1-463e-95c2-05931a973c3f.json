@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "94608abf-c9f1-463e-95c2-05931a973c3f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-28T05:12:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 66: A Traveler's Gamble"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>After proving their strength to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/J%27mon_Sa_Ord\">J'mon Sa Ord<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> heads to a casino to have some fun and make some deals.<\/p>\r\n\r\n<p>The next day, they go in search of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Mistress_Asharru\">Mistress Asharru<\/a>\u2014the owner of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Cabal%27s_Ruin\">Cabal's Ruin<\/a>\u2014and discover a shocking scene, as well as evidence that an old foe is on the move.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/A_Traveler%27s_Gamble\">https:\/\/criticalrole.fandom.com\/wiki\/A_Traveler%27s_Gamble<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 10
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "26bf1840-28aa-43a8-a291-c609e9dbe807"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-28T05:12:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

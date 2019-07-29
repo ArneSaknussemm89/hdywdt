@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "a7f996cd-d7ee-4dad-9a2e-8f0a8256b485"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:59:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 30: Stoke the Flames"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>The seeds of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Whitestone_Rebellion\">rebellion<\/a> begin to take root in <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Whitestone\">Whitestone<\/a>!&nbsp;<\/p>\r\n\r\n<p>But as the members of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> make their move to bring the population to revolt, they learn that <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Cassandra_de_Rolo\">another de Rolo<\/a> may still be alive...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Stoke_the_Flames\">https:\/\/criticalrole.fandom.com\/wiki\/Stoke_the_Flames<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 7
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "547bc9e7-8074-4f94-b2c4-d0b9d77b10a2"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:59:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

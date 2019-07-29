@@ -1,0 +1,16 @@
+@import '../../global/utils/init';
+
+.hdywdt-moment {
+  .hdywdt-killing-blows,
+  .hdywdt-who-was-killed {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    > * {
+      &:not(:first-child) {
+        padding-left: 20px;
+      }
+    }
+  }
+}

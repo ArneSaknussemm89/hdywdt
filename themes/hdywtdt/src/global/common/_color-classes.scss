@@ -169,6 +169,10 @@
 
 .color-3E996C {
   color: $color-green-1;
+
+  > * {
+    color: $color-green-1;
+  }
 }
 
 .color-357455 {
@@ -181,6 +185,10 @@
 
 .color-EE4136 {
   color: $color-red-1;
+
+  > * {
+    color: $color-red-1;
+  }
 }
 
 .color-AC3D36 {

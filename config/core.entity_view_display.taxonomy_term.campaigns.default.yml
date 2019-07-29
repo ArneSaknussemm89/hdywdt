@@ -1,0 +1,21 @@
+uuid: 0cb207f5-5920-47bc-9e6c-eb3e64786a79
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.campaigns
+  module:
+    - text
+id: taxonomy_term.campaigns.default
+targetEntityType: taxonomy_term
+bundle: campaigns
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

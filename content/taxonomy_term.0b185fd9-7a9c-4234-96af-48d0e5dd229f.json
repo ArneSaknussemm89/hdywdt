@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "0b185fd9-7a9c-4234-96af-48d0e5dd229f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:55:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 27: The Path to Whitestone"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Ghostly attackers infiltrate <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Greyskull_Keep\">Greyskull Keep<\/a> as <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> prepares to journey northeast to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Whitestone\">Whitestone<\/a> and confront the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Briarwoods\">Briarwoods<\/a>.&nbsp;<\/p>\r\n\r\n<p>Meanwhile, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Keyleth\">Keyleth<\/a> begins to suspect that a <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Orthax\">mysterious power<\/a> holds sway over <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Percy\">Percy<\/a>.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Path_to_Whitestone\">https:\/\/criticalrole.fandom.com\/wiki\/The_Path_to_Whitestone<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 4
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "547bc9e7-8074-4f94-b2c4-d0b9d77b10a2"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:55:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

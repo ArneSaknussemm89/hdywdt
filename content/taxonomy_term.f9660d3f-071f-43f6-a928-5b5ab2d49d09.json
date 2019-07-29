@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "f9660d3f-071f-43f6-a928-5b5ab2d49d09"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-28T05:11:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 64: The Frigid Doom"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Back in <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Whitestone\">Whitestone<\/a> to debate their next move, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> discovers their return from the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Feywild\">Feywild<\/a> may not have been as clean cut as it seemed.<\/p>\r\n\r\n<p>Their attention turns to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Draconia\">Draconia<\/a> where the destruction wrought by the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Chroma_Conclave\">Conclave<\/a> again leaves the party to search for allies amongst the scattered survivors while coming face to face with the cost to defeat them.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Frigid_Doom\">https:\/\/criticalrole.fandom.com\/wiki\/The_Frigid_Doom<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 8
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "26bf1840-28aa-43a8-a291-c609e9dbe807"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-28T05:11:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

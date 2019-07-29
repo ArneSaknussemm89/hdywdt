@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "76a31b9d-3ce6-40c7-9d4e-7a7eeb573c4c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-28T05:08:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 61: Denizens of the Moonbrush"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>The satyr guide, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Garmelie\">Garmelie<\/a>, leads <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> toward the cancerous tree that houses <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Fenthras\">Fenthras, Wrath of the Fey Warden<\/a>, one of the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vestiges_of_the_Divergence\">Vestiges of the Divergence<\/a>.<\/p>\r\n\r\n<p>The journey through the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Feywild\">Feywild<\/a> presents several challenges, but the biggest and scariest threats aren't always the most dangerous in this strange realm...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Denizens_of_the_Moonbrush\">https:\/\/criticalrole.fandom.com\/wiki\/Denizens_of_the_Moonbrush<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 5
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "26bf1840-28aa-43a8-a291-c609e9dbe807"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-28T05:08:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

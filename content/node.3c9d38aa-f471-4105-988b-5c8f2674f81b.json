@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-07-24T03:48:01+00:00",
+            "value": "2019-07-28T05:17:00+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,7 +42,7 @@
     ],
     "title": [
         {
-            "value": "Campaign 1: Episode 1"
+            "value": "Scanlan Lightning Bolts a Naga Champion"
         }
     ],
     "created": [
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2019-07-24T03:48:01+00:00",
+            "value": "2019-07-28T05:17:00+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,17 +79,48 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/hdywdt\/scanlan-lightning-bolts-naga-champion",
+            "langcode": "en",
+            "pathauto": 1
         }
     ],
-    "field_hdywdt_moment_content": [],
+    "menu_link": [],
+    "field_hdywdt_killing_blow": [
+        {
+            "target_type": "node",
+            "target_uuid": "03b02338-76a4-4bf6-813f-6abb7f6a5688"
+        }
+    ],
+    "field_hdywdt_moment_content": [
+        {
+            "value": "<p>During a fight with a Naga Champion, Scanlan destroys it with a Lightning Bolt, obviously right after inspiring himself. This was the first HDYWDT moment captured on stream.<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
     "field_hdywdt_moment_teaser_media": [
         {
             "target_type": "media",
-            "target_uuid": "dda8cf85-9d65-432d-8f31-07330f38897f"
+            "target_uuid": "c87574c4-42c0-4383-a75b-e03f31016337"
         }
     ],
-    "field_tags": []
+    "field_hdywdt_who_was_killed_": [
+        {
+            "target_type": "node",
+            "target_uuid": "3e2a507b-fe22-4c4e-87e7-716ef2c2bd02"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "bdd03345-a05a-48a7-8935-c3def24d122b"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "70f3f6ed-a1e7-4457-8f1b-5b05bbbb4603"
+        }
+    ]
 }

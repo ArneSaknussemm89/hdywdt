@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "08776cc9-231d-4fab-90bc-259b84b1a983"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-26T02:52:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 8: Glass and Bone"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p><a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a>, broken and battered, struggles to survive after a catastrophic battle with the duergar <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/King_Murghol\">king<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Queen_Ulara\">queen<\/a>.&nbsp;<\/p>\r\n\r\n<p>Relying on <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vex%27ahlia\">Vex'ahlia<\/a>'s knowledge of the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Underdark\">Underdark<\/a> and her skill at tracking prey, the weary adventurers press on into the depths only to come across a perilous sea of bone and glass...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Glass_and_Bone\">https:\/\/criticalrole.fandom.com\/wiki\/Glass_and_Bone<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 7
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:03:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

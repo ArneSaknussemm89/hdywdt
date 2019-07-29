@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "ab815291-515b-48af-877b-cf8d4366a366"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:25:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 57: Duskmeadow"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>With <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Umbrasyl_(character)\">Umbrasyl<\/a> defeated, the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Herd_of_Storms\">Herd of Storms<\/a> beginning a new chapter as part of the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Rivermaw_Tribe\">Rivermaw Tribe<\/a>, and the city of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Westruun\">Westruun<\/a> restored to its people, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> journeys to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vasselheim\">Vasselheim<\/a> as <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vax%27ildan\">Vax'ildan<\/a> confronts the heavy price of a bargain for <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vex%27ahlia\">his sister<\/a>'s life.&nbsp;<\/p>\r\n\r\n<p>After a short stay in Vasselheim, the party travels to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Whitestone\">Whitestone<\/a> to meet old friends... and an old enemy?<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Duskmeadow_(Episode)\">https:\/\/criticalrole.fandom.com\/wiki\/Duskmeadow_(Episode)<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 1
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "26bf1840-28aa-43a8-a291-c609e9dbe807"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:25:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

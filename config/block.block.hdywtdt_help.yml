@@ -11,7 +11,7 @@ _core:
 id: hdywtdt_help
 theme: hdywtdt
 region: content
-weight: -1
+weight: 0
 provider: null
 plugin: help_block
 settings:

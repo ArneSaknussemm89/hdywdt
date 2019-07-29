@@ -1,0 +1,81 @@
+{
+    "uuid": [
+        {
+            "value": "c30d8184-8e38-4e03-8353-e43c70b7ec78"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "remote_video",
+            "target_type": "media_type",
+            "target_uuid": "0257adc6-d8e8-4691-9132-ce6c6cbaff16"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-28T05:30:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "79f7e84d-79cd-4480-9384-20c987ef678d"
+        }
+    ],
+    "name": [
+        {
+            "value": "Into the Greyspine Mines - Critical Role RPG Show: Episode 2"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "",
+            "title": null,
+            "width": 480,
+            "height": 360,
+            "target_type": "file",
+            "target_uuid": "1f8ba690-eb6a-408b-aa54-fce7eadc944e"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-28T05:30:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-28T05:30:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/JTie0S_5gjE?t=9038"
+        }
+    ]
+}

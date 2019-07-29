@@ -1,0 +1,14 @@
+.hdywdt-moment .hdywdt-killing-blows,
+.hdywdt-moment .hdywdt-who-was-killed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .hdywdt-moment .hdywdt-killing-blows > *:not(:first-child),
+  .hdywdt-moment .hdywdt-who-was-killed > *:not(:first-child) {
+    padding-left: 20px; }

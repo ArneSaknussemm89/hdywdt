@@ -1,0 +1,29 @@
+uuid: d8359a64-c07e-41b4-995f-cf5f53b3f7cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pc_voiced_by
+    - node.type.pc
+    - taxonomy.vocabulary.actors
+id: node.pc.field_pc_voiced_by
+field_name: field_pc_voiced_by
+entity_type: node
+bundle: pc
+label: 'Voiced By'
+description: 'Which voice actor controls this PC?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      actors: actors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

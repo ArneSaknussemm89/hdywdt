@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "1206019e-49fe-4da9-831c-bd4ab4617597"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:15:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 45: Those Who Walk Away"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>An exhausted <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> spends some time hashing out their pent-up frustrations and examining their spoils of victory.&nbsp;<\/p>\r\n\r\n<p>They then journey to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Pyrah\">Pyrah<\/a>, home of the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Fire_Ashari\">Fire Ashari<\/a>, hoping to find survivors of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Thordak\">Thordak<\/a>'s escape from the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Elemental_Plane_of_Fire\">Elemental Plane of Fire<\/a>.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Those_Who_Walk_Away\">https:\/\/criticalrole.fandom.com\/wiki\/Those_Who_Walk_Away<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 7
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ead94cc5-d2b4-4f58-9f84-c7fe4acc5bfa"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:15:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+uuid: 0580dd8f-459b-4067-a26b-78ee37640a75
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: actor_paths
+label: 'Actor Paths'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/actors/[term:name]'
+selection_criteria:
+  c97ca685-c70e-4d13-aa15-fd908b13cdcf:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      actors: actors
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: c97ca685-c70e-4d13-aa15-fd908b13cdcf
+selection_logic: and
+weight: -5
+relationships: {  }

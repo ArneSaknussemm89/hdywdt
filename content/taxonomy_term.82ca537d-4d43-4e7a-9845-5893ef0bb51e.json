@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "82ca537d-4d43-4e7a-9845-5893ef0bb51e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-26T03:01:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 17: Hubris"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Parting ways with one of their members, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> is now adrift in a strange and unfamiliar city.&nbsp;<\/p>\r\n\r\n<p>After <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Grog_Strongjaw\">Grog<\/a> dukes it out in a fighting pit, Vox Machina rushes to help against an attacking beast outside the city, which ends up setting a chain of events in motion.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Hubris\">https:\/\/criticalrole.fandom.com\/wiki\/Hubris<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "7a466a86-ea54-4570-bf8b-0c45c59f13f3"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:04:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "ec6912ef-e220-47e1-ab6b-d90fede69c8c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-26T02:53:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 9: Yug'Voril Uncovered"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p><a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> battles the duergar queen, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Queen_Ulara\">Ulara<\/a>, before she can make a thrall of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Grog\">Grog<\/a>.&nbsp;<\/p>\r\n\r\n<p><a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Keyleth\">Keyleth<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Lady_Kima_of_Vord\">Lady Kima<\/a> settle their differences, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vax%27ildan\">Vax'ildan<\/a> encourages the druid that she is not alone, and the party makes their way to the illithid colony of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Yug%27Voril\">Yug'Voril<\/a>.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Yug%27Voril_Uncovered\">https:\/\/criticalrole.fandom.com\/wiki\/Yug%27Voril_Uncovered<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 8
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:03:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

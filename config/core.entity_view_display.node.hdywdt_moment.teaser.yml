@@ -4,21 +4,63 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.hdywdt_moment.field_hdywdt_killing_blow
+    - field.field.node.hdywdt_moment.field_hdywdt_moment_content
     - field.field.node.hdywdt_moment.field_hdywdt_moment_teaser_media
+    - field.field.node.hdywdt_moment.field_hdywdt_who_was_killed_
     - field.field.node.hdywdt_moment.field_tags
     - node.type.hdywdt_moment
   module:
+    - text
     - user
 id: node.hdywdt_moment.teaser
 targetEntityType: node
 bundle: hdywdt_moment
 mode: teaser
 content:
-  links:
-    weight: 100
+  field_hdywdt_killing_blow:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_hdywdt_moment_content:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+  field_hdywdt_moment_teaser_media:
+    type: entity_reference_entity_view
+    weight: 2
     region: content
-hidden:
-  field_hdywdt_moment_teaser_media: true
-  field_tags: true
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+  field_hdywdt_who_was_killed_:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_label
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "ccc61586-6b65-4214-b6b3-7176461d7597"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-26T02:49:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 5: The Trick about Falling"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Having successfully slain a dangerous illithid and its dwarven general, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> finds themselves surrounded by a small army of duergar.&nbsp;<\/p>\r\n\r\n<p>Barely escaping with their lives, they press forward, quickly realizing their path is growing more dangerous with every step into the darkness.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Trick_about_Falling\">https:\/\/criticalrole.fandom.com\/wiki\/The_Trick_about_Falling<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 4
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:03:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

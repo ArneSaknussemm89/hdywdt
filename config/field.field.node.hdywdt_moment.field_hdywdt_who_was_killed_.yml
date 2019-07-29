@@ -1,0 +1,28 @@
+uuid: df2a60b2-5656-471c-a74b-c5cd94ac62a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hdywdt_who_was_killed_
+    - node.type.hdywdt_moment
+    - node.type.npc
+id: node.hdywdt_moment.field_hdywdt_who_was_killed_
+field_name: field_hdywdt_who_was_killed_
+entity_type: node
+bundle: hdywdt_moment
+label: 'Who Was Killed?'
+description: 'What character was killed?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      npc: npc
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

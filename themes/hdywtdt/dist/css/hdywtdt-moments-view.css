@@ -1,0 +1,17 @@
+.view-hdywtdt-moments .page-title {
+  margin-bottom: 15px; }
+
+.view-hdywtdt-moments .view-header {
+  border-bottom: 1px solid #2D2D2D;
+  margin-bottom: 60px; }
+
+.view-hdywtdt-moments .views-row:not(:last-child) {
+  margin-bottom: 45px; }
+  .view-hdywtdt-moments .views-row:not(:last-child)::after {
+    content: '';
+    display: block;
+    position: relative;
+    height: 1px;
+    width: 75%;
+    margin: 45px auto 0;
+    background: #BBB; }

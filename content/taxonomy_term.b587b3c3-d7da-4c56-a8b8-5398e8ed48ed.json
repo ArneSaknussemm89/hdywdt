@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "b587b3c3-d7da-4c56-a8b8-5398e8ed48ed"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:14:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 44: The Sunken Tomb"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>In hopes of defeating the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Chroma_Conclave\">Chroma Conclave<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> sets out to recover the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vestiges_of_the_Divergence\">Vestiges of the Divergence<\/a>\u2014ancient armor, weapons, and other items of immense power.<\/p>\r\n\r\n<p>They learn the location of one Vestige, the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Deathwalker%27s_Ward\">Deathwalker's Ward<\/a>, interred with an ancient <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Champion_of_the_Raven_Queen\">Champion of the Raven Queen<\/a>... at the bottom of a lake.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Sunken_Tomb\">https:\/\/criticalrole.fandom.com\/wiki\/The_Sunken_Tomb<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 6
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ead94cc5-d2b4-4f58-9f84-c7fe4acc5bfa"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:14:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

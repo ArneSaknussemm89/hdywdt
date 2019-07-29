@@ -1,0 +1,23 @@
+uuid: f7463b78-5c05-4fc5-a5a0-03897f9b6bc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: campaign_paths
+label: 'Campaign Paths'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/campaigns/[term:parents:join-path]/[term:name]'
+selection_criteria:
+  05d6bced-9809-4b4b-abdb-0e28437ac772:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      campaigns: campaigns
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 05d6bced-9809-4b4b-abdb-0e28437ac772
+selection_logic: and
+weight: -5
+relationships: {  }

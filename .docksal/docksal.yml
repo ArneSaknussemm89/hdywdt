@@ -22,6 +22,15 @@ services:
       - ${DOCKSAL_DNS1}
       - ${DOCKSAL_DNS2}
 
+  web_static:
+    image: docksal/web:2.1-apache2.4
+    volumes:
+      - project_root:/var/www:ro,nocopy # Static html files
+    labels:
+      - io.docksal.virutal-host=static.${VIRTUAL_HOST}
+    environment:
+      - APACHE_DOCUMENTROOT=/var/www/html
+
   # DB
   db:
     hostname: db

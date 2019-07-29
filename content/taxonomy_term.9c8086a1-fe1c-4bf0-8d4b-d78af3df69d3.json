@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "9c8086a1-fe1c-4bf0-8d4b-d78af3df69d3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:03:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 36: Winter's Crest in Whitestone"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>The <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Winter%27s_Crest_Festival\">Winter's Crest Festival<\/a> comes to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Whitestone\">Whitestone<\/a> for the first time in five years!<\/p>\r\n\r\n<p>Seeing this as a chance to relax after the revolution, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> partakes in the festivities and exchanges gifts with each other as they enjoy a well-deserved moment of peace.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Winter%27s_Crest_in_Whitestone\">https:\/\/criticalrole.fandom.com\/wiki\/Winter%27s_Crest_in_Whitestone<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 13
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "547bc9e7-8074-4f94-b2c4-d0b9d77b10a2"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:03:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

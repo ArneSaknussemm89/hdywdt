@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "666b5a5b-8f7b-4476-900e-20d7f6ac74ff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:54:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 26: Consequences and Cows"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Reeling from the aftermath of their battle against the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Briarwoods\">Briarwoods<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> is called before <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Sovereign_Uriel_Tal%27Dorei_III\">Sovereign Uriel Tal'Dorei III<\/a> to answer for their recent destructive behavior.&nbsp;<\/p>\r\n\r\n<p>Seeking to bolster their reputation, the group agrees to hunt a mysterious giant bird terrorizing the countryside, with some rather <em>interesting<\/em> results...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Consequences_and_Cows\">https:\/\/criticalrole.fandom.com\/wiki\/Consequences_and_Cows<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 3
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "547bc9e7-8074-4f94-b2c4-d0b9d77b10a2"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:54:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

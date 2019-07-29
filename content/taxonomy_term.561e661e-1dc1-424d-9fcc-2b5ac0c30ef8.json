@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "561e661e-1dc1-424d-9fcc-2b5ac0c30ef8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:51:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 23: The Rematch"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>As <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> prepares for the return to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Emon\">Emon<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Grog\">Grog<\/a> demands a rematch against <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Kern\">Kern<\/a> to regain his honor.&nbsp;<\/p>\r\n\r\n<p>After some final errands, the party returns home to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Greyskull_Keep\">Greyskull Keep<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Kynan_Leore\">a fan<\/a> outside their home, but there's no time to rest with bad news on the horizon...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Rematch\">https:\/\/criticalrole.fandom.com\/wiki\/The_Rematch<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 7
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "7a466a86-ea54-4570-bf8b-0c45c59f13f3"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:51:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

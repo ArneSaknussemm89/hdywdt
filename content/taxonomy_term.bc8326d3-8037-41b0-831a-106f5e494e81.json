@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "bc8326d3-8037-41b0-831a-106f5e494e81"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-26T02:52:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 7: The Throne Room"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>With an uneasy agreement struck between <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Lady_Kima_of_Vord\">Lady Kima of Vord<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Clarota\">Clarota<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> quietly begins a search of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Emberhold\">Emberhold<\/a>.&nbsp;<\/p>\r\n\r\n<p>Lady Kima means to strike a blow against their unseen enemy by cutting off the head of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/K%27Varn\">K'Varn<\/a>'s military forces, but the ensuing battle may come at a price...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Throne_Room\">https:\/\/criticalrole.fandom.com\/wiki\/The_Throne_Room<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 6
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:03:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

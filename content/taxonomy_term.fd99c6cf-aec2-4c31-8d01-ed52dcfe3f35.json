@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "fd99c6cf-aec2-4c31-8d01-ed52dcfe3f35"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:49:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 20: Trial of the Take: Part 3"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Like their companions before them, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Keyleth\">Keyleth<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vax%27ildan\">Vax'ildan<\/a>, and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Tiberius\">Tiberius<\/a> begin their contract for the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Slayer%27s_Take\">Slayer's Take<\/a> along with a driven and mysterious young cleric named <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Kashaw_Vesh\">Kashaw<\/a> and a hardened dwarf by the name of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Thorbir_Falbek\">Thorbir<\/a>.<\/p>\r\n\r\n<p>The group's mission\u2014to track down and kill an elusive <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Rakshasa\">rakshasa<\/a> that has been preying on wealthy travelers within the city\u2014leads to the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Velvet_Cabaret\">Velvet Cabaret<\/a>, an exotic establishment in the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Duskmeadow_District\">Duskmeadow District<\/a>...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Trial_of_the_Take:_Part_3\">https:\/\/criticalrole.fandom.com\/wiki\/Trial_of_the_Take:_Part_3<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 4
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "7a466a86-ea54-4570-bf8b-0c45c59f13f3"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:49:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

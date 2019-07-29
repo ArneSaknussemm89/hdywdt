@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "a43e68d5-75e1-40e9-8051-acd34b6cbd1c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T19:16:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 46: Cindergrove Revisited"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Special guest star <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Chris_Hardwick\">Chris Hardwick<\/a> plays <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Gern_Blanston\">Gern Blanston<\/a>, a blue dragonborn wizard.<\/p>\r\n\r\n<p>With fire elementals emerging from the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Elemental_Plane_of_Fire\">Elemental Plane of Fire<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> joins forces with the druids of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Pyrah\">Pyrah<\/a> and <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Zephrah\">Zephrah<\/a>\u2014and a strange scavenger\u2014to seal the rift between planes.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Cindergrove_Revisited\">https:\/\/criticalrole.fandom.com\/wiki\/Cindergrove_Revisited<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 8
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ead94cc5-d2b4-4f58-9f84-c7fe4acc5bfa"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T19:16:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

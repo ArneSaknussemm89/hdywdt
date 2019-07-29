@@ -1,0 +1,78 @@
+{
+    "uuid": [
+        {
+            "value": "538112a6-0ba1-41e4-803d-ed16348ba59c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-27T18:53:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 24: The Feast"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>With the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Briarwoods\">Briarwoods<\/a> coming to <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Emon\">Emon<\/a>, <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Percy\">Percy<\/a> reveals the full tale of how they slaughtered <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/De_Rolo_family\">his family<\/a> and seized control of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Whitestone\">Whitestone<\/a>.&nbsp;<\/p>\r\n\r\n<p><a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> has just one week to prepare for a diplomatic feast between the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Tal%27Dorei_Council\">Tal'Dorei Council<\/a> and the sinister and mysterious Lord and Lady Briarwood...<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/The_Feast\">https:\/\/criticalrole.fandom.com\/wiki\/The_Feast<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 1
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "547bc9e7-8074-4f94-b2c4-d0b9d77b10a2"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-27T18:53:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

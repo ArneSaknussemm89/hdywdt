@@ -1,0 +1,22 @@
+uuid: e662dc1c-0b42-4a11-bc56-76dda8036436
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: hdywdt_moments
+label: 'HDYWDT Moments'
+type: 'canonical_entities:node'
+pattern: '/hdywdt/[node:title]'
+selection_criteria:
+  72704df2-fdb6-4932-93d0-21e2fb661950:
+    id: node_type
+    bundles:
+      hdywdt_moment: hdywdt_moment
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 72704df2-fdb6-4932-93d0-21e2fb661950
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,23 @@
+uuid: c4958ee6-38f1-45b0-8230-639c8c4b77a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: simple_node_paths
+label: 'Simple Node Paths'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type:machine-name]/[node:title]'
+selection_criteria:
+  49c6be63-bf3e-4065-abd7-fb3ec2b7d94c:
+    id: node_type
+    bundles:
+      npc: npc
+      pc: pc
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 49c6be63-bf3e-4065-abd7-fb3ec2b7d94c
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,77 @@
+{
+    "uuid": [
+        {
+            "value": "a7edbcdf-d468-43b6-a699-b5f7bd880358"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "campaigns",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "11086de7-353e-42ca-8bae-08438b577e0d"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-07-26T02:57:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Episode 14: Shopping and Shipping"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>After allowing themselves a single night's rest back in the city of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Emon\">Emon<\/a>, the members of <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Vox_Machina\">Vox Machina<\/a> set out for their meeting with <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Sovereign_Uriel_Tal%27Dorei_III\">Sovereign Uriel Tal'Dorei III<\/a> and the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Tal%27Dorei_Council\">Tal'Dorei Council<\/a>.&nbsp;<\/p>\r\n\r\n<p>Once the Council learns of the <a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Horns_of_Orcus\">Horn of Orcus<\/a>, a course of action is eventually decided upon, and the party then heads out into the city to gear up for the mission at hand.<\/p>\r\n\r\n<p>(Taken from&nbsp;<a href=\"https:\/\/criticalrole.fandom.com\/wiki\/Shopping_and_Shipping\">https:\/\/criticalrole.fandom.com\/wiki\/Shopping_and_Shipping<\/a>)<\/p>\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "weight": [
+        {
+            "value": 12
+        }
+    ],
+    "parent": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "499f8d67-47aa-4a9c-8c9d-8e94084c13eb"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-26T03:03:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en"
+        }
+    ]
+}

@@ -3,6 +3,13 @@ global-style:
   css:
     base:
       dist/css/global.css: {}
+  dependencies:
+    - hdywtdt/fonts
+
+fonts:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Darker+Grotesque|Montserrat&display=swap: { external: true, minified: true }
 
 # Page level CSS
 patterns-overview-page:
@@ -10,6 +17,23 @@ patterns-overview-page:
     layout:
       dist/css/patterns-overview-page.css: {}
 
+hdywdt:
+  css:
+    layout:
+      dist/css/hdywdt.css: {}
+
+# Views
+taxonomy-term-view:
+  css:
+    component:
+      dist/css/taxonomy-term-view.css: {}
+
+hdywtdt-moments-view:
+  css:
+    component:
+      dist/css/hdywtdt-moments-view.css: {}
+
+# Components
 tile:
   css:
     component:
