@@ -749,6 +749,7 @@ $settings['trusted_host_patterns'] = [
   '*\.codekoalas\.com',
   '*\.codekoa\.la',
   '*\.howdoyouwannadothis\.com',
+  '*\.howdoyouwannadothis-com\.docksal',
   '^howdoyouwannadothis-com.docksal',
 ];
 
