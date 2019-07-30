@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "150a3bc48651748f15a0feb46bc9ce16",
+    "content-hash": "cd48b410578c3b54eeab666d7fcb2089",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3504,17 +3504,11 @@
         },
         {
             "name": "drupal/uikit_components",
-            "version": "3.0.0-beta5",
+            "version": "dev-3.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/uikit_components.git",
-                "reference": "8.x-3.0-beta5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/uikit_components-8.x-3.0-beta5.zip",
-                "reference": "8.x-3.0-beta5",
-                "shasum": "17ffc2fc18c264da39d1dfe75743f649a1dfe028"
+                "reference": "06613b447fefad6698bae5106ad3c1b9cfc98510"
             },
             "require": {
                 "drupal/core": "*"
@@ -3525,11 +3519,11 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.0-beta5",
-                    "datestamp": "1508074444",
+                    "version": "8.x-3.0-beta5+33-dev",
+                    "datestamp": "1513280585",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -3551,7 +3545,8 @@
             "homepage": "https://www.drupal.org/project/uikit_components",
             "support": {
                 "source": "https://git.drupalcode.org/project/uikit_components"
-            }
+            },
+            "time": "2017-12-14T19:41:20+00:00"
         },
         {
             "name": "drush/drush",
@@ -7098,6 +7093,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal-tome/tome_drush": 20,
+        "drupal/uikit_components": 20,
         "drupal/claro": 15
     },
     "prefer-stable": true,

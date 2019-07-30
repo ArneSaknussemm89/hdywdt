@@ -26,7 +26,7 @@
         "drupal/tome": "^1.0",
         "drupal-tome/tome_drush": "dev-master",
         "drupal/uikit": "^3.11",
-        "drupal/uikit_components": "^3.0",
+        "drupal/uikit_components": "3.x-dev",
         "drupal/components": "^1.1",
         "drupal/ui_patterns": "^1.1",
         "drupal/admin_toolbar": "^1.27",
