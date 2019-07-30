@@ -68,9 +68,9 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/campaigns\/campaign-1-vox-machina",
+            "langcode": "en",
+            "pathauto": 1
         }
     ]
 }

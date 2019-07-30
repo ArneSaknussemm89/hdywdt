@@ -79,17 +79,12 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/pc\/keyleth",
             "langcode": "en",
             "pathauto": 1
         }
     ],
-    "menu_link": [
-        {
-            "target_id": null
-        }
-    ],
+    "menu_link": [],
     "field_pc_description": [],
     "field_pc_voiced_by": [
         {

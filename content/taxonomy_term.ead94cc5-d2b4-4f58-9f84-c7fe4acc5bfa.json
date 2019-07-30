@@ -34,7 +34,12 @@
             "value": "Chapter 4: Attack of the Conclave"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 4
@@ -64,8 +69,7 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/campaigns\/campaign-1-vox-machina\/chapter-4-attack-conclave",
             "langcode": "en",
             "pathauto": 1
         }

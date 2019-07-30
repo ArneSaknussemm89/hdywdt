@@ -34,7 +34,12 @@
             "value": "Orion Acaba"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 0
@@ -63,9 +68,9 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/actors\/orion-acaba",
+            "langcode": "en",
+            "pathauto": 1
         }
     ]
 }

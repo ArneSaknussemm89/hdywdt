@@ -69,9 +69,9 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/campaigns\/campaign-1-vox-machina\/chapter-1-beneath-mines-kraghammer\/episode-13-escape-underdark",
+            "langcode": "en",
+            "pathauto": 1
         }
     ]
 }

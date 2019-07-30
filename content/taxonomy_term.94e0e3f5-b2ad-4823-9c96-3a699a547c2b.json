@@ -34,7 +34,12 @@
             "value": "Taliesin Jaffe"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 0
@@ -63,9 +68,9 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/actors\/taliesin-jaffe",
+            "langcode": "en",
+            "pathauto": 1
         }
     ]
 }

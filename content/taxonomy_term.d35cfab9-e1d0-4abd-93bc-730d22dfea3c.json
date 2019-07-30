@@ -34,7 +34,12 @@
             "value": "Matthew Mercer"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 0
@@ -63,9 +68,9 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/actors\/matthew-mercer",
+            "langcode": "en",
+            "pathauto": 1
         }
     ]
 }

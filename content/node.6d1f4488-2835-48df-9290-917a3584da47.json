@@ -79,17 +79,12 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
-            "langcode": null,
+            "alias": "\/hdywdt\/vaxildan-guts-umber-hulk",
+            "langcode": "en",
             "pathauto": 1
         }
     ],
-    "menu_link": [
-        {
-            "target_id": null
-        }
-    ],
+    "menu_link": [],
     "field_hdywdt_killing_blow": [
         {
             "target_type": "node",

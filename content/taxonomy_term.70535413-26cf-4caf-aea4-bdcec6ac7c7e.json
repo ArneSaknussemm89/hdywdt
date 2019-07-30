@@ -34,7 +34,12 @@
             "value": "Ashley Johnson"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 0
@@ -63,8 +68,7 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/actors\/ashley-johnson",
             "langcode": "en",
             "pathauto": 1
         }

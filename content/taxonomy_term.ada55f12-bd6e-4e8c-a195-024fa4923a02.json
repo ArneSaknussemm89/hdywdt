@@ -34,7 +34,12 @@
             "value": "Chapter 6: Fall of the Chroma Conclave"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 6
@@ -64,8 +69,7 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/campaigns\/campaign-1-vox-machina\/chapter-6-fall-chroma-conclave",
             "langcode": "en",
             "pathauto": 1
         }

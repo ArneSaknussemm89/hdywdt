@@ -79,17 +79,12 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/npc\/umber-hulk",
             "langcode": "en",
             "pathauto": 1
         }
     ],
-    "menu_link": [
-        {
-            "target_id": null
-        }
-    ],
+    "menu_link": [],
     "field_npc_description": [],
     "field_npc_voiced_by": [
         {

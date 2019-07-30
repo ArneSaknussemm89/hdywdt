@@ -34,7 +34,12 @@
             "value": "Chapter 3: Battling the Briarwoods"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 3
@@ -64,8 +69,7 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/campaigns\/campaign-1-vox-machina\/chapter-3-battling-briarwoods",
             "langcode": "en",
             "pathauto": 1
         }

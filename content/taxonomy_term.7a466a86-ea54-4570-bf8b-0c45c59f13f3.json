@@ -34,7 +34,12 @@
             "value": "Chapter 2: Adventures in Vasselheim"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 1
@@ -64,9 +69,9 @@
     ],
     "path": [
         {
-            "alias": null,
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/campaigns\/campaign-1-vox-machina\/chapter-2-adventures-vasselheim",
+            "langcode": "en",
+            "pathauto": 1
         }
     ]
 }

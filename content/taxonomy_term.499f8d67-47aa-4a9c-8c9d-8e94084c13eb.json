@@ -34,7 +34,12 @@
             "value": "Chapter 1: Beneath the Mines of Kraghammer"
         }
     ],
-    "description": [],
+    "description": [
+        {
+            "value": null,
+            "format": null
+        }
+    ],
     "weight": [
         {
             "value": 0
@@ -64,9 +69,9 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
-            "langcode": "en"
+            "alias": "\/campaigns\/campaign-1-vox-machina\/chapter-1-beneath-mines-kraghammer",
+            "langcode": "en",
+            "pathauto": 1
         }
     ]
 }
